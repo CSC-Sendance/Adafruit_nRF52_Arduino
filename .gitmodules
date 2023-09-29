@@ -4,4 +4,5 @@
 	branch = fix/platformio-compatibility
 [submodule "libraries/Adafruit_TinyUSB_Arduino"]
 	path = libraries/Adafruit_TinyUSB_Arduino
-	url = https://github.com/adafruit/Adafruit_TinyUSB_Arduino.git
+	url = https://github.com/CSC-Sendance/Adafruit_TinyUSB_Arduino.git
+	branch = fix/platformio-compat
