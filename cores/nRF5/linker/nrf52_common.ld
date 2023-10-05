@@ -101,9 +101,12 @@ SECTIONS
         *(.ARM.exidx* .gnu.linkonce.armexidx.*)
     } > FLASH
     __exidx_end = .;
-
     __etext = .;
-
+/* sendance custom */
+	.rtt (NOLOAD):
+	{
+	} > RAM
+/* standard */
     .data : AT (__etext)
     {
         __data_start__ = .;

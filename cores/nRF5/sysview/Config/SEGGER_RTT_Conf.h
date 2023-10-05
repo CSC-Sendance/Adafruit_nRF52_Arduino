@@ -54,6 +54,12 @@ Revision: $Rev: 17066 $
 
 */
 
+/* custom sendance */
+
+#define SEGGER_RTT_SECTION ".rtt"
+
+/* standard from Adafruit /nrf / SEGGER */
+
 #ifndef SEGGER_RTT_CONF_H
 #define SEGGER_RTT_CONF_H
 
